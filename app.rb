@@ -1,10 +1,9 @@
 class App < Sinatra::Base
 
   get '/' do
-    "hi"
+    "Hello, World!"
 end
 
-get '/lol' do
-  "lol"
+
 end
 end
